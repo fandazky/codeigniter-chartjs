@@ -1,0 +1,109 @@
+/*
+* 	TITLE: 		DATABASE DRIVEN INTERACTIVE CHARTS 
+* 	AUTHOR: 	DANIEL DRAVE
+*	VERSION: 	1.0 
+*	WEBSITE: 	http://danieldrave.co.uk
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	transition: 		background-color 0.5s ease, color 0.5s ease;
+	-moz-transition: 	background-color 0.5s ease, color 0.5s ease;	
+	-webkit-transition: background-color 0.5s ease, color 0.5s ease;		
+}
+
+html, body {
+	font-family: 		"Open Sans", Arial, sans-serif;
+	font-size: 			14px;
+	font-weight: 		400;
+	text-align: 		left;	
+	background: 		url('graph.png');
+	background-repeat: 	repeat;
+}
+
+#wrapper {
+	margin: 			40px auto;
+	padding: 			10px;	
+	width: 				830px;
+	background-color: 	#FFF;
+}
+
+#credits {
+	text-align: 		left;
+	border-bottom: 		solid 1px #286090;
+	padding: 			0px 0px 10px 0px;
+}
+
+div.links > a {
+	padding: 			10px 24px;
+	display: 			inline-block;
+	border-radius: 		3px;
+	margin-top: 		1%;
+	margin-right: 		8px;
+}
+
+div.links > a > i {
+	font-size: 			1.5em!important;
+}
+
+h1 {
+	font-size: 			2em!important;
+	font-weight: 		normal!important;
+	margin: 			10px 0px!important;
+}
+
+ul {
+	margin: 			0px!important;
+	padding: 			0px!important;
+	list-style-type: 	none;
+}
+
+a {
+	text-decoration: 	none!important;
+}
+
+form {
+	position: 			relative;
+	width: 				100%;
+	padding: 			10px 0px;
+}
+
+label {
+	font-weight: 		normal!important;
+	margin: 			10px 10px;
+}
+
+select {
+    width: 				auto;
+    display: 			inline!important;
+    margin: 			10px 0px!important;
+    text-align: 		center;
+    width: 				25%!important;
+}
+
+option {
+	padding: 			10px 0px;
+}
+
+select, input[type="submit"], label {
+	display: 			inline!important;
+	width: 				20%!important;
+}
+
+input[type="submit"] {
+	width: 				25%;
+	padding: 			7.5px 24px;
+	margin: 			10px;
+}
+
+/*STYLE THE LEGEND*/
+
+#demoLegend ul > li {
+	margin: 			0px 0px 20px 0px;
+}
+
+#demoLegend ul > li > span {
+	padding: 			5px!important;
+	margin-right: 		10px;
+}
